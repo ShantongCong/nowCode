@@ -6,11 +6,11 @@ import java.util.ArrayList;
 public class Demo04 {
     public static void main(String[] args) {
 
-        ListNode l1=new ListNode(1,null);
-        ListNode l2=new ListNode(2,l1);
-        ListNode l3=new ListNode(3,l2);
-        ListNode l4=new ListNode(4,l3);
-        ListNode l5=new ListNode(5,l4);
+        ListNode l1=new ListNode(1);
+        ListNode l2=new ListNode(2);
+        ListNode l3=new ListNode(3);
+        ListNode l4=new ListNode(4);
+        ListNode l5=new ListNode(5);
         ArrayList<Integer> list = printListFromTailToHead(l5);
         System.out.println(list);
         //输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
